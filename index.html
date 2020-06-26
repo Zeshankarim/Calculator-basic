@@ -9,33 +9,34 @@
 <body>
     <div class="bodyy" >
         <div>
-            <input type="text">
+            <input type="text" id="result">
         </div>
         <div class="leftt">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="clrr">C</button>
+            <button onclick="getNumber('7')">7</button>
+            <button onclick="getNumber('8')">8</button>
+            <button onclick="getNumber('9')">9</button>
+            <button class="clrr" onclick="clearResult()">C</button>
 
         </div>
         <div class="leftt">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>X</button>
+            <button onclick="getNumber('4')" >4</button>
+            <button onclick="getNumber('5')">5</button>
+            <button onclick="getNumber('6')">6</button>
+            <button onclick="getNumber('*')">X</button>
         </div>
         <div class="leftt">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
+            <button onclick="getNumber('1')">1</button>
+            <button onclick="getNumber('2')">2</button>
+            <button onclick="getNumber('3')">3</button>
+            <button onclick="getNumber('-')">-</button>
         </div>
         <div class="leftt">
-            <button>0</button>
-            <button>+</button>
-            <button>/</button>
-            <button class="clr">=</button>
+            <button onclick="getNumber('0')">0</button>
+            <button onclick="getNumber('+')">+</button>
+            <button onclick="getNumber('/')">/</button>
+            <button class="clr" onclick="getResult()">=</button>
         </div>
     </div>
 </body>
+<script src="app.js"></script>
 </html>
