@@ -1,0 +1,37 @@
+.bodyy{
+height: 500px;
+width: 400px;
+background-color: rgb(96, 105, 102);
+border: 2px solid gray;
+margin: 0 auto;
+border-radius: 7px;
+}
+button{
+    height: 78px;
+    width: 78px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 33px;
+    margin: 4px;
+    box-shadow: 2px 4px 5px grey;
+    
+}
+input{
+    width: 85%;
+    height:80px ;
+    margin: 25px;
+    font-size: 33px;
+    border-radius: 10px;
+    background-color: rgb(248, 247, 242);
+
+}
+.leftt{
+    margin-left: 20px;
+}
+.clr{
+    background-color: rgba(243, 227, 78, 0.849) ;
+}
+.clrr{
+    background-color: rgb(129, 129, 246);
+}
